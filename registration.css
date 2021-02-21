@@ -1,0 +1,136 @@
+@import "style.css";
+@import "catalog.css";
+@import "product.css";
+.section--registration {
+   display: flex;
+   padding-top: 64px;
+   padding-bottom: 96px;
+}
+.registration-wrapper {
+   max-width: 1140px;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   margin: 0 auto;
+}
+.section--reg--left {
+   display: flex;
+   flex-direction: column;
+   margin-right: 128px;
+}
+.title_shop__reg {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 29px;
+   color: #f16d7f;
+   text-decoration: none;
+   animation: animate__swing;
+}
+.adress--reg {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 13px;
+   line-height: 16px;
+   border: 1px solid #a4a4a4;
+}
+input:focus {
+   outline: none; /* Скрываем рамку */
+}
+.enter__data {
+   width: 360px;
+   height: 45px;
+   padding-left: 17px;
+}
+.btn__radio {
+   margin-top: 31px;
+   margin-bottom: 33px;
+}
+.titul-name-detail {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 19px;
+   color: #222222;
+   margin-bottom: 12px;
+}
+.text-for-login {
+   width: 359px;
+   height: 32px;
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 13px;
+   line-height: 16px;
+   color: #b1b1b1;
+   margin-top: 15px;
+}
+.btn__join {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 167px;
+   height: 50px;
+   color: #fff;
+   background: #f16d7f;
+   border: none;
+   margin-top: 24px;
+   white-space: pre;
+}
+.arrow-right1 {
+   margin-left: 20px;
+}
+
+button.btn__join:focus {
+   outline: none; /* Скрываем рамку */
+}
+.section--reg--right {
+   display: flex;
+   flex-direction: column;
+}
+.item__li,
+.offer__li,
+.our__offer__head {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 29px;
+   color: #000000;
+}
+.our__offer__head {
+   margin-bottom: 22px;
+}
+.item__li {
+   margin-bottom: 21px;
+}
+.offer__li {
+   margin-bottom: 16px;
+}
+.offer-ok {
+   margin-right: 23px;
+}
+/* .offer__li::before {
+   content: "";
+   position: absolute;
+   background: url(image/offer-ok.svg) center center/ contain no-repeat;
+   width: 20px;
+   height: 16px;
+   left: -40px;
+   top: 0px;
+   -webkit-animation: 0.8s infinite size;
+   animation: 0.8s infinite size;
+}
+.offer__li {
+   position: relative;
+} */

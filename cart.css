@@ -1,0 +1,284 @@
+@import "style.css";
+@import "catalog.css";
+@import "product.css";
+.title_shop__cart {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 29px;
+   color: #f16d7f;
+   text-decoration: none;
+}
+.cart-wrapper {
+   max-width: 1140px;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   margin: 0 auto;
+   padding-bottom: 128px;
+   gap: 128px;
+}
+.section--cart {
+   padding-top: 96px;
+}
+
+.section--cart--left {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   /* margin-top: 96px; */
+}
+.section--cart--right {
+   display: flex;
+   flex-direction: column;
+   /* padding-left: 128px; */
+}
+.cart--choose {
+   display: flex;
+   max-width: 625px;
+   max-height: 306px;
+   box-shadow: 15px 15px 10px 5px rgb(0 0 0 / 10%);
+}
+.describe--choose {
+   display: flex;
+   padding-top: 22px;
+   padding-left: 31px;
+   flex-direction: column;
+}
+.foto--choose {
+   width: 262px;
+   height: 306px;
+}
+.name--cart {
+   width: 262px;
+   height: 58px;
+   font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 29px;
+   color: #222222;
+   margin-bottom: 41px;
+}
+.cart--choose {
+   /* display: block; */
+   max-width: 100%;
+   max-height: 100%;
+   margin: 0 auto;
+}
+.cart_close_menu {
+   padding-top: 22px;
+   cursor: pointer;
+   margin-right: 18px;
+}
+.set_of_cart {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 22px;
+   line-height: 26px;
+   color: #575757;
+   list-style-type: none;
+}
+.cart__price_li {
+   color: #f16d7f;
+   margin-bottom: 0;
+}
+.cart--li {
+   display: flex;
+   margin-bottom: 6px;
+}
+.choose__number {
+   width: 44px;
+   height: 25px;
+   font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 22px;
+   color: #656565;
+}
+.btn__clear__continue {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 32px;
+}
+.btn__cart__btn {
+}
+.btn__continue,
+.btn__clear {
+   width: 234px;
+   height: 49px;
+   /* display: flex;
+   justify-content: center; */
+   border: 1px solid #a4a4a4;
+   font-family: Lato;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 17px;
+   color: #000000;
+   background: #ffffff;
+   /* align-items: center; */
+}
+.btn__clear:hover {
+   color: #ffffff;
+   background-color: #f16d7f;
+   border-color: #f16d7f;
+}
+.btn__continue:hover {
+   color: #ffffff;
+   background-color: #f16d7f;
+   border-color: #f16d7f;
+}
+input:focus {
+   outline: none; /* Скрываем рамку */
+}
+.enter__adress,
+.enter__adress__city {
+   width: 360px;
+   height: 45px;
+   padding-left: 16px;
+}
+.adress--input {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.text-ship-cart {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 19px;
+   color: #222222;
+}
+input[type="text"] {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 13px;
+   line-height: 16px;
+   border: 1px solid #a4a4a4;
+}
+input[type="number"] {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 13px;
+   line-height: 16px;
+   border: 1px solid #a4a4a4;
+}
+/* меняем цвет placeholder полей ввода */
+.enter__adress__city::-webkit-input-placeholder {
+   color: #b1b1b1;
+}
+.enter__adress::-webkit-input-placeholder {
+   color: #222222;
+}
+/* убираем стрелки в поле ввода */
+input.enter__adress::-webkit-outer-spin-button,
+input.enter__adress::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: textfield;
+   margin: 0;
+}
+input.choose__number {
+   border: 1px solid #eaeaea;
+}
+.get__quote {
+   width: 101px;
+   height: 35px;
+   margin-top: 4px;
+   border: 1px solid #a4a4a4;
+   background: #ffffff;
+}
+.btn__get {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 11px;
+   line-height: 13px;
+   color: #4a4a4a;
+   margin-bottom: 0;
+}
+button.get__quote:focus {
+   outline: none; /* Скрываем рамку */
+}
+.checkout__text {
+   display: flex;
+   flex-direction: column;
+   width: 250px;
+   align-items: flex-end;
+   /* justify-content: flex-end; */
+}
+.cart__checkout {
+   width: 360px;
+   height: 214px;
+   display: flex;
+   flex-direction: column;
+   background: #f5f3f3;
+   margin-top: 57px;
+   align-items: center;
+}
+.btn_checkout {
+   width: 237px;
+   height: 50px;
+   background: #f16d7f;
+   color: #ffffff;
+   border: 1px solid #ff6a6a;
+   margin-top: 17px;
+}
+.text-sub-total {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 11px;
+   line-height: 13px;
+   color: #4a4a4a;
+   margin-bottom: 12px;
+   margin-top: 39px;
+}
+.text-sub-total::after {
+   content: "    $900";
+   font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 11px;
+   line-height: 13px;
+   color: #4a4a4a;
+   margin-bottom: 12px;
+   margin-top: 39px;
+   white-space: pre;
+}
+.text-grand-total {
+   display: flex;
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 19px;
+   color: #222222;
+   margin-bottom: 21px;
+}
+.text-grand-total::after {
+   content: "    $900"; /* Добавляем после текста */
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 19px;
+   color: #f16d7f;
+   margin-bottom: 0;
+   white-space: pre;
+}
+/* .price__check {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 19px;
+   color: #f16d7f;
+   margin-bottom: 0;
+   white-space: pre;
+} */

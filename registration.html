@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registration</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <link rel=" preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="stylesheet" href="registration.css">
+   <link rel="stylesheet" href="overlay.css">
+   <link rel="stylesheet" href="style.scss">
+   <link rel="stylesheet" href="overlay.scss">
+   <link rel="stylesheet" href="script.js">
+   <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body class="catalog">
+   <header class="navbar">
+      <div class="navbar__wrapper">
+         <div class="navbar__icons">
+            <a href="index.html" class="navbar__icon1">
+               <img src="image/navbar__icon1.svg" alt="">
+            </a>
+            <a href="#" class="navbar__icon2">
+               <img src="image/navbar__icon2.svg" alt="">
+            </a>
+         </div>
+         <div class="navbar__icons">
+            <a href="#" class="navbar__icon3 burger">
+               <img src="image/navbar__icon3.svg" alt="">
+            </a>
+
+            <a href="registration.html" class="navbar__icon4" target="_blank">
+               <img src="image/navbar__icon4.svg" alt="">
+            </a>
+            <a href="cart.html" class="navbar__icon5" target="_blank">
+               <img src="image/navbar__icon5.svg" alt="">
+            </a>
+         </div>
+      </div>
+   </header>
+   <section class="overlay">
+      <div class="menu">
+         <button class="close">
+            <img src="image/close_menu.svg" alt="#">
+         </button>
+         <a href="#" class="menu--menu">MENU</a>
+         <div class="menu--submenu">
+            <a href="#" class="menu--man submenu">MAN
+               <a href="#" class="sub--sub">Accessories</a>
+               <a href="#" class="sub--sub">Bags</a>
+               <a href="#" class="sub--sub">Denim</a>
+               <a href="#" class="sub--sub">T-Shirts</a>
+            </a>
+            <a href="#" class="menu--woman submenu">WOMAN
+               <a href="#" class="sub--sub">Accessories</a>
+               <a href="#" class="sub--sub">Jackets & Coats</a>
+               <a href="#" class="sub--sub">Polos</a>
+               <a href="#" class="sub--sub">T-Shirts</a>
+               <a href="#" class="sub--sub">Shirts</a>
+            </a>
+            <a href="#" class="menu--kids submenu">KIDS
+               <a href="#" class="sub--sub">Accessories</a>
+               <a href="#" class="sub--sub">Jackets & Coats</a>
+               <a href="#" class="sub--sub">Polos</a>
+               <a href="#" class="sub--sub">T-Shirts</a>
+               <a href="#" class="sub--sub">Shirts</a>
+               <a href="#" class="sub--sub">Bags</a>
+            </a>
+         </div>
+
+
+
+      </div>
+   </section>
+
+   <div class="catalog_preview">
+      <div class="section__wrapper title_top">
+         <div class="left_side__cart">
+            <a href="#" class="title_shop__reg">REGISTRATION</a>
+         </div>
+
+      </div>
+   </div>
+
+   <section class="section section--registration">
+      <div class="registration-wrapper">
+         <div class="section--reg--left">
+            <h4 class="titul-name-detail">Your Name</h4>
+            <form class="adress--reg" action="">
+               <input class="enter__data" type="text" name="#" placeholder="First Name">
+               <input class="enter__data" type="text" name="#" value="" placeholder="Last Name">
+            </form>
+            <form class="btn__radio" action="">
+               <input type="radio" id="radioButton1" name="radio" value="male">
+               <label for="radioButton1">Male</label>
+               <input type="radio" id="radioButton2" name="radio" value="female">
+               <label for="radioButton2">Female</label>
+            </form>
+            <h4 class="titul-name-detail">Login details</h4>
+            <form class="adress--reg" action="handler.php">
+               <input class="enter__data" type="email" name="#" placeholder="Email">
+               <input class="enter__data" type="password" name="#" value="" placeholder="Password">
+            </form>
+            <p class="text-for-login">Please use 8 or more characters, with at least 1 number and a mixture of uppercase
+               and lowercase letters</p>
+            <div class="btn__join_now">
+               <form class="btn__join__btn" action="#">
+                  <button class="btn__join" type="submit">JOIN NOW<img class="arrow-right1" src="image/arrow-right.svg"
+                        alt=""></button>
+               </form>
+
+            </div>
+         </div>
+         <div class="section--reg--right">
+            <h3 class="our__offer__head">LOYALTY HAS ITS PERKS</h3>
+            <p class="item__li">Get in on the loyalty program where you can earn points and unlock serious perks.
+               Starting with these as soon as you join:</p>
+            <p class="offer__li"><img class="offer-ok" src="image/offer-ok.svg" alt="">15% off welcome offer
+            </p>
+            <p class="offer__li"><img class="offer-ok" src="image/offer-ok.svg" alt="">Free shipping, returns and
+               exchanges on all orders
+
+            </p>
+            <p class="offer__li"><img class="offer-ok" src="image/offer-ok.svg" alt="">$10 off a purchase on your
+               birthday
+
+            </p>
+            <p class="offer__li"><img class="offer-ok" src="image/offer-ok.svg" alt="">Early access to products</p>
+            <p class="offer__li"><img class="offer-ok" src="image/offer-ok.svg" alt="">Exclusive offers & rewards</p>
+
+         </div>
+      </div>
+
+   </section>
+
+   <section class="section section--subscribe">
+      <div class="section__wrapper  section__wrapper__profile">
+         <div class="profile">
+            <img class="profile_dama" src="image/profile_dama.svg" alt="dama">
+            <div class="profile_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span
+                  class="profile_text_ital">a pulvinar purus condimentum“</span>
+            </div>
+
+         </div>
+         <div class="subscribtion-form">
+            <div class="subscribtion-form__title">SUBSCRIBE</div>
+            <div class="subscribtion-form__subtitle">FOR OUR NEWLETTER AND PROMOTION</div>
+            <div class="subscribtion-form__inputs">
+               <input type="email" placeholder="Enter Your Email" class="subscribtion-form__input">
+               <button type="submit" class="subscribtion-form__button">Subscribe</button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer class="footer">
+      <div class="footer__wrapper">
+         <p class="copyright">
+            @ 2021 Brand All Rights Reserved.
+         </p>
+         <div class="spacer"></div>
+         <div class="social-icons">
+            <div class="social-icon">
+               <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="social-icon">
+               <i class="fab fa-instagram"></i>
+            </div>
+            <div class="social-icon">
+               <i class="fab fa-pinterest-p"></i>
+            </div>
+            <div class="social-icon">
+               <i class="fab fa-twitter"></i>
+            </div>
+         </div>
+      </div>
+
+   </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+.overlay {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  height: calc(100vh - 75px);
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  pointer-events: none;
+}
+
+.overlay .menu {
+  max-height: calc(100vh - 75px);
+  height: 100%;
+  background: #fff;
+  position: absolute;
+  right: -232px;
+  width: 232px;
+  -webkit-transition: right 0.2s ease-in;
+  transition: right 0.2s ease-in;
+}
+
+.overlay .menu .close {
+  background: none;
+  padding: 0;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  height: 12px;
+  border: none;
+  font-size: 12px;
+  text-align: center;
+  width: 12px;
+}
+
+.overlay.open {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.overlay.open .menu {
+  right: 0;
+}
+/*# sourceMappingURL=overlay.css.map */

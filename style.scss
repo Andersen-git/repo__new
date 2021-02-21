@@ -1,0 +1,59 @@
+@mixin flex-center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.section__wrapper {
+   @include flex-center;
+   flex-direction: column;
+   width: 100%;
+}
+.deals__row {
+   @include flex-center;
+   gap: 30px;
+   width: 100%;
+   .deals__card {
+      @include flex-center;
+      flex-direction: column;
+      text-decoration: none;
+      flex-grow: 1;
+      height: 260px;
+      background-image: linear-gradient(rgba(33, 22, 022, 0.7), rgba(33, 22, 22, 0.7)), url("image/for-kids.png");
+      background-position: center;
+      background-size: 100%;
+      transition: background-size 0.2s ease-in;
+      &:hover {
+         background-size: 110%;
+      }
+      .title {
+         font-family: Lato;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 24px;
+         line-height: 29px;
+         text-align: center;
+         color: #f16d7f;
+      }
+      .subtitle {
+         font-family: Lato;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 16px;
+         line-height: 19px;
+         text-align: center;
+         color: #ffffff;
+      }
+   }
+   &--short {
+      .deals__card {
+         height: 180px;
+      }
+   }
+}
+
+// margin-left: auto;
+// margin-right: auto;
+// width: 100%;
+// max-width: 1140px;
+/* display: flex; */
+/* justify-content: space-between; */

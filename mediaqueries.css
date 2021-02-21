@@ -1,0 +1,200 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   .footer__wrapper {
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+   .men_women_kids {
+      justify-content: center;
+      flex-wrap: nowrap;
+   }
+}
+@media screen and (min-width: 240px) and (max-width: 768px) {
+   .section--advantages .section__wrapper {
+      flex-direction: column;
+      align-items: center;
+   }
+   .section--subscribe .section__wrapper {
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .navbar__wrapper {
+      margin-left: 16px;
+      margin-right: 16px;
+   }
+   .section--intro__wrapper {
+      justify-content: center;
+      margin-top: 50px;
+      padding-bottom: 10px;
+   }
+   .section--intro_right {
+      margin-top: 148px;
+      margin-bottom: 148px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .section--intro_right_text1,
+   .section--intro_right_text2 {
+      font-size: 5.5vw;
+      line-height: normal;
+   }
+   .column {
+      height: 40px;
+   }
+   .men_women_kids {
+      justify-content: center;
+      gap: 10px;
+   }
+   .row {
+      gap: 10px;
+   }
+   .row__items {
+      display: contents;
+   }
+   .deals__row {
+      gap: 10px;
+   }
+   .hide-mobile {
+      display: none;
+   }
+   .section__wrapper__profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .profile {
+      margin-top: 20px;
+   }
+   .subscribtion-form__title {
+      margin-top: 0;
+   }
+   .browse_all_product {
+      align-items: center;
+   }
+   .footer__wrapper {
+      flex-direction: column-reverse;
+      margin-top: 15px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+   .subscribtion-form__title {
+      font-size: 3.5vw;
+   }
+   .subscribtion-form__subtitle {
+      font-size: 2.5vw;
+   }
+}
+@media screen and (max-width: 375px) {
+   .overlay .menu {
+      width: 100%;
+   }
+   .section--advantages .section__wrapper {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+
+/*CATALOG*/
+
+@media screen and (max-width: 1024px) {
+   .section--filters .section__wrapper {
+      justify-content: space-around;
+   }
+   .filter_column {
+      margin-left: 20px;
+   }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+   .section--filters .section__wrapper {
+      justify-content: space-around;
+   }
+   .title_top {
+      justify-content: space-around;
+   }
+   .filter_column {
+      margin-left: 20px;
+   }
+   .filter_icon {
+      /* width: 30%; */
+   }
+}
+@media screen and (min-width: 240px) and (max-width: 480px) {
+   .title_top {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+@media screen and (max-width: 375px) {
+   .hide-mobile {
+      display: none;
+   }
+   .filter_icon {
+      width: 30%;
+   }
+   .filter__main__sum__filter {
+      /* font-family: Lato;
+      font-style: normal;
+      font-weight: normal; */
+      font-size: 12px;
+      line-height: 14px;
+      /* color: #6f6e6e; */
+   }
+   .section--items {
+      margin-right: 5px;
+      margin-left: 5px;
+   }
+}
+/*CART*/
+@media screen and (max-width: 1024px) {
+   .cart-wrapper {
+      flex-direction: column;
+      align-items: center;
+   }
+   .title_top {
+      justify-content: center;
+   }
+   .section--cart--left {
+      margin-bottom: 64px;
+   }
+   .section--cart--right {
+      flex-direction: row;
+      gap: 15px;
+      width: 100%;
+      /* align-items: center; */
+      justify-content: center;
+   }
+   .cart__checkout {
+      margin-top: 43px;
+   }
+}
+@media screen and (max-width: 768px) {
+   .section--cart--right {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+@media screen and (max-width: 480px) {
+   .btn__clear__continue {
+      gap: 20px;
+      justify-content: center;
+   }
+}
+@media screen and (max-width: 375px) {
+   .btn__continue,
+   .btn__clear {
+      width: 175px;
+      height: 33px;
+   }
+   .btn__clear__continue {
+      justify-content: center;
+      gap: 9px;
+   }
+   .cart--choose {
+      margin-left: 10px;
+      margin-right: 10px;
+   }
+   .title_top {
+      justify-content: center;
+   }
+}

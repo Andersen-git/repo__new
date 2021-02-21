@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Product</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <link rel=" preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">">
+
+   <link rel="stylesheet" href="product.css">
+   <link rel="stylesheet" href="product.scss">
+   <link rel="stylesheet" href="overlay.css">
+   <link rel="stylesheet" href="style.scss">
+   <link rel="stylesheet" href="overlay.scss">
+   <link rel="stylesheet" href="script.js">
+   <link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+
+<body class="catalog">
+   <header class="navbar">
+      <div class="navbar__wrapper">
+         <div class="navbar__icons">
+            <a href="index.html" class="navbar__icon1">
+               <img src="image/navbar__icon1.svg" alt="">
+            </a>
+            <a href="#" class="navbar__icon2">
+               <img src="image/navbar__icon2.svg" alt="">
+            </a>
+         </div>
+         <div class="navbar__icons">
+            <a href="#" class="navbar__icon3 burger">
+               <img src="image/navbar__icon3.svg" alt="">
+            </a>
+
+            <a href="registration.html" class="navbar__icon4" target="_blank">
+               <img src="image/navbar__icon4.svg" alt="">
+            </a>
+            <a href="cart.html" class="navbar__icon5" target="_blank">
+               <img src="image/navbar__icon5.svg" alt="">
+            </a>
+         </div>
+      </div>
+   </header>
+   <section class="overlay">
+      <div class="menu">
+         <button class="close">
+            <img src="image/close_menu.svg" alt="#">
+         </button>
+         <a href="#" class="menu--menu">MENU</a>
+         <div class="menu--submenu">
+            <a href="#" class="menu--man submenu">MAN
+               <a href="#" class="sub--sub">Accessories</a>
+               <a href="#" class="sub--sub">Bags</a>
+               <a href="#" class="sub--sub">Denim</a>
+               <a href="#" class="sub--sub">T-Shirts</a>
+            </a>
+            <a href="#" class="menu--woman submenu">WOMAN
+               <a href="#" class="sub--sub">Accessories</a>
+               <a href="#" class="sub--sub">Jackets & Coats</a>
+               <a href="#" class="sub--sub">Polos</a>
+               <a href="#" class="sub--sub">T-Shirts</a>
+               <a href="#" class="sub--sub">Shirts</a>
+            </a>
+            <a href="#" class="menu--kids submenu">KIDS
+               <a href="#" class="sub--sub">Accessories</a>
+               <a href="#" class="sub--sub">Jackets & Coats</a>
+               <a href="#" class="sub--sub">Polos</a>
+               <a href="#" class="sub--sub">T-Shirts</a>
+               <a href="#" class="sub--sub">Shirts</a>
+               <a href="#" class="sub--sub">Bags</a>
+            </a>
+         </div>
+
+
+
+      </div>
+   </section>
+
+   <div class="catalog_preview">
+      <div class="section__wrapper title_top">
+         <div class="left_side">
+            <a href="#" class="title_arrivals">NEW ARRIVALS</a>
+         </div>
+         <div class="right_side">
+            <a href="#" class="title_arrivals1">HOME /</a>
+            <a href="#" class="title_arrivals1">MEN /</a>
+            <a href="#" class="title_arrivals3"> NEW ARRIVALS</a>
+         </div>
+      </div>
+   </div>
+
+   <section class="section section--carousel">
+      <div class="carousel-wrapper">
+
+         <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+               <div class="carousel--slider">
+                  <div class="carousel-item active">
+                     <img src="image/section_carousel.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="image/card-6.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                     <img src="image/card-5.png" class="d-block w-100" alt="...">
+                  </div>
+               </div>
+            </div>
+            <div class="button--carousel-control">
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev">
+                  <!-- <i class="fas fa-angle-right"></i> -->
+
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next">
+                  <!-- <i class="fas fa-angle-right"></i> -->
+
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+
+         </div>
+
+      </div>
+   </section>
+   <section class="section section-description-product">
+      <div class="section__wrapper filter__line">
+         <div class="description-products">
+            <h4 class="desc__subtitle">WOMEN COLLECTION</h4>
+            <img src="image/prod__desc.svg" alt="">
+            <h3 class="desc__title">MOSCHINO CHEAP AND CHIC</h3>
+            <p class="desc__text">Compellingly actualize fully researched processes before proactive outsourcing.
+               Progressively syndicate
+               collaborative architectures before cutting-edge services. Completely visualize parallel core competencies
+               rather than exceptional portals. </p>
+            <h3 class="desc__price">$561</h3>
+         </div>
+         <img class="line" src="image/prod__desc_2.svg" alt="">
+         <div class="description-products__filters">
+            <div class="filter_column__prod">
+               <details class="filter__main__product">
+                  <summary class="filter__main__summary">
+                     <span class="filter__main__summary__filter__prod">CHOOSE COLOR </span>
+                     <img src="image/filt_trend.svg" class="filt_trend" alt="">
+                  </summary>
+                  <div class="filter__colors">
+                     <label><input type="checkbox" name="White" value="White" id="check"> White</label>
+                     <label><input type="checkbox" name="Black" value="Black" id="check"> Black</label>
+                     <label><input type="checkbox" name="Green" value="Green" id="check"> Green</label>
+                     <label><input type="checkbox" name="Red" value="Red" id="check"> Red</label>
+                     <label><input type="checkbox" name="Blue" value="Blue" id="check"> Blue</label>
+                     <label><input type="checkbox" name="Grey" value="Grey" id="check"> Grey</label>
+                     <label><input type="checkbox" name="Brown" value="Brown" id="check"> Brown</label>
+                     <label><input type="checkbox" name="Pink" value="Pink" id="check"> Pink</label>
+                     <label><input type="checkbox" name="Orange" value="Orange" id="check"> Orange</label>
+                  </div>
+               </details>
+            </div>
+            <div class="filter_column__prod">
+               <details class="filter__main__product">
+                  <summary class="filter__main__summary">
+                     <span class="filter__main__summary__filter__prod">CHOOSE SIZE </span>
+                     <img src="image/filt_trend.svg" class="filt_trend" alt="">
+                  </summary>
+                  <div class="sizes">
+                     <label><input type="checkbox" name="XS" value="XS" id="check"> XS</label>
+                     <label><input type="checkbox" name="S" value="S" id="check"> S</label>
+                     <label><input type="checkbox" name="M" value="M" id="check"> M</label>
+                     <label><input type="checkbox" name="L" value="L" id="check"> L</label>
+                  </div>
+               </details>
+            </div>
+            <div class="filter_column__prod">
+               <details class="filter__main__product">
+                  <summary class="filter__main__summary">
+                     <span class="filter__main__summary__filter__prod">QUANTITY </span>
+                     <img src="image/filt_trend.svg" class="filt_trend" alt="">
+
+                  </summary>
+                  <div class="sizes">
+                     <label><input type="checkbox" name="1" value="X1" id="check"> 1</label>
+                     <label><input type="checkbox" name="2" value="2" id="check"> 2</label>
+                     <label><input type="checkbox" name="3" value="3" id="check"> 3</label>
+                     <label><input type="checkbox" name="More" value="More" id="check"> More</label>
+                  </div>
+               </details>
+            </div>
+         </div>
+         <form action="Cart.html" target="_blank">
+            <button class="product-filter__btn"> <img class="btn__cart" src="image/btn__cart.svg" alt="">
+               Add to
+               Cart</button>
+         </form>
+
+      </div>
+   </section>
+   <section class="section section--items">
+      <div class="container">
+         <div class="row">
+            <div class="col-12 col-sm-6 col-xl-4 row__items">
+
+               <figure class="items__card">
+                  <div class="card__picture">
+                     <img src="image/card-4.png" class="card__img" alt="#">
+                     <div class="card__hover d-flex justify-content-center align-items-center">
+                        <button class="card__btn d-flex align-items-center">
+                           <i class="fas fa-shopping-cart card__btn__icon"></i>
+                           <span>Add To Cart</span>
+                        </button>
+                     </div>
+                  </div>
+                  <figcaption class="card__info">
+                     <p class="card__title">ELLERY X M'O CAPSULE</p>
+                     <p class="card__description">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                     <p class="card__price">$52.00</p>
+                  </figcaption>
+               </figure>
+
+               <figure class="items__card">
+                  <div class="card__picture">
+                     <img src="image/card-3.png" class="card__img" alt="#">
+                     <div class="card__hover d-flex justify-content-center align-items-center">
+                        <button class="card__btn d-flex align-items-center">
+                           <i class="fas fa-shopping-cart card__btn__icon"></i>
+                           <span>Add To Cart</span>
+                        </button>
+                     </div>
+                  </div>
+                  <figcaption class="card__info">
+                     <p class="card__title">ELLERY X M'O CAPSULE</p>
+                     <p class="card__description">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                     <p class="card__price">$52.00</p>
+                  </figcaption>
+               </figure>
+
+               <figure class="items__card">
+                  <div class="card__picture">
+                     <img src="image/card-6.png" class="card__img" alt="#">
+                     <div class="card__hover d-flex justify-content-center align-items-center">
+                        <button class="card__btn d-flex align-items-center">
+                           <i class="fas fa-shopping-cart card__btn__icon"></i>
+                           <span>Add To Cart</span>
+                        </button>
+                     </div>
+                  </div>
+
+
+                  <figcaption class="card__info">
+                     <p class="card__title">ELLERY X M'O CAPSULE</p>
+                     <p class="card__description">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                     <p class="card__price">$52.00</p>
+                  </figcaption>
+               </figure>
+
+            </div>
+         </div>
+      </div>
+
+
+   </section>
+
+   <section class="section section--subscribe">
+      <div class="section__wrapper  section__wrapper__profile">
+         <div class="profile">
+            <img class="profile_dama" src="image/profile_dama.svg" alt="dama">
+            <div class="profile_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <span
+                  class="profile_text_ital">a pulvinar purus condimentum“</span>
+            </div>
+
+         </div>
+         <div class="subscribtion-form">
+            <div class="subscribtion-form__title">SUBSCRIBE</div>
+            <div class="subscribtion-form__subtitle">FOR OUR NEWLETTER AND PROMOTION</div>
+            <div class="subscribtion-form__inputs">
+               <input type="email" placeholder="Enter Your Email" class="subscribtion-form__input">
+               <button type="submit" class="subscribtion-form__button">Subscribe</button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer class="footer">
+      <div class="footer__wrapper">
+         <p class="copyright">
+            @ 2021 Brand All Rights Reserved.
+         </p>
+         <div class="spacer"></div>
+         <div class="social-icons">
+            <div class="social-icon">
+               <i class="fab fa-facebook-f"></i>
+            </div>
+            <div class="social-icon">
+               <i class="fab fa-instagram"></i>
+            </div>
+            <div class="social-icon">
+               <i class="fab fa-pinterest-p"></i>
+            </div>
+            <div class="social-icon">
+               <i class="fab fa-twitter"></i>
+            </div>
+         </div>
+      </div>
+
+   </footer>
+   <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>

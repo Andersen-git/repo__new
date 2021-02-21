@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "sass": "^1.32.7"
+  },
+  "dependencies": {
+    "style.css": "^1.0.0"
+  }
+}
