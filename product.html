@@ -37,10 +37,10 @@
                <img src="image/navbar__icon3.svg" alt="">
             </a>
 
-            <a href="registration.html" class="navbar__icon4" target="_blank">
+            <a href="registration.html" class="navbar__icon4 hide-mobile" target="_blank">
                <img src="image/navbar__icon4.svg" alt="">
             </a>
-            <a href="cart.html" class="navbar__icon5" target="_blank">
+            <a href="cart.html" class="navbar__icon5 hide-mobile" target="_blank">
                <img src="image/navbar__icon5.svg" alt="">
             </a>
          </div>
@@ -82,7 +82,7 @@
    </section>
 
    <div class="catalog_preview">
-      <div class="section__wrapper title_top">
+      <div class="section__wrapper title__product">
          <div class="left_side">
             <a href="#" class="title_arrivals">NEW ARRIVALS</a>
          </div>
@@ -95,41 +95,31 @@
    </div>
 
    <section class="section section--carousel">
-      <div class="carousel-wrapper">
-
-         <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel" data-interval="false">
-            <div class="carousel-inner">
-               <div class="carousel--slider">
-                  <div class="carousel-item active">
-                     <img src="image/section_carousel.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="image/card-6.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                     <img src="image/card-5.png" class="d-block w-100" alt="...">
-                  </div>
-               </div>
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="image/section_carousel.png" class="d-block w-100" alt="...">
             </div>
-            <div class="button--carousel-control">
-               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                  data-bs-slide="prev">
-                  <!-- <i class="fas fa-angle-right"></i> -->
-
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-               </button>
-               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                  data-bs-slide="next">
-                  <!-- <i class="fas fa-angle-right"></i> -->
-
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-               </button>
+            <div class="carousel-item">
+               <img src="image/section_carousel.png" class="d-block w-100" alt="...">
             </div>
-
+            <div class="carousel-item">
+               <img src="image/section_carousel.png" class="d-block w-100" alt="...">
+            </div>
          </div>
-
+         <div class="btn_next_prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+               data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <!-- <i class="fas fa-angle-right"></i> -->
+               <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+               data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+            </button>
+         </div>
       </div>
    </section>
    <section class="section section-description-product">

@@ -7,8 +7,11 @@
       justify-content: center;
       flex-wrap: nowrap;
    }
+   .footer__wrapper {
+      padding: 24px 32px 24px 32px;
+   }
 }
-@media screen and (min-width: 240px) and (max-width: 768px) {
+@media screen and (min-width: 375.1px) and (max-width: 768px) {
    .section--advantages .section__wrapper {
       flex-direction: column;
       align-items: center;
@@ -24,9 +27,11 @@
    }
    .section--intro__wrapper {
       justify-content: center;
-      margin-top: 50px;
-      padding-bottom: 10px;
+      padding-right: 0px;
    }
+   /* margin-top: 50px;
+      padding-bottom: 10px; */
+
    .section--intro_right {
       margin-top: 148px;
       margin-bottom: 148px;
@@ -72,11 +77,12 @@
       align-items: center;
    }
    .footer__wrapper {
-      flex-direction: column-reverse;
-      margin-top: 15px;
+      padding: 24px 32px 24px 32px;
+      /* margin-top: 15px;
       padding-bottom: 10px;
       padding-left: 10px;
-      padding-right: 10px;
+      padding-right: 10px; */
+      /* padding: 43px 10px 24px 10px; */
    }
    .subscribtion-form__title {
       font-size: 3.5vw;
@@ -84,14 +90,41 @@
    .subscribtion-form__subtitle {
       font-size: 2.5vw;
    }
+   .copyright {
+      margin-bottom: 0;
+   }
+}
+@media screen and (max-width: 480px) {
+   .footer__wrapper {
+      flex-direction: column-reverse;
+      gap: 10px;
+   }
 }
 @media screen and (max-width: 375px) {
+   .title__registr {
+      display: flex;
+   }
    .overlay .menu {
       width: 100%;
    }
    .section--advantages .section__wrapper {
       flex-direction: column;
       align-items: center;
+   }
+   .section--subscribe .section__wrapper {
+      justify-content: center;
+      flex-direction: column;
+   }
+   .section--intro__wrapper {
+      justify-content: center;
+   }
+   .section--intro_right {
+      padding: 148px 56px 149px 56px;
+   }
+   .section--intro_right_text1,
+   .section--intro_right_text2 {
+      font-size: 6vw;
+      line-height: normal;
    }
 }
 
@@ -105,7 +138,7 @@
       margin-left: 20px;
    }
 }
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 375.1px) and (max-width: 768px) {
    .section--filters .section__wrapper {
       justify-content: space-around;
    }
@@ -114,6 +147,12 @@
    }
    .filter_column {
       margin-left: 20px;
+   }
+   .filter_column_inset {
+      margin-right: 5px;
+   }
+   .filter__main__sum__filter {
+      margin-right: 6px;
    }
    .filter_icon {
       /* width: 30%; */
@@ -138,7 +177,11 @@
       font-weight: normal; */
       font-size: 12px;
       line-height: 14px;
+      margin-right: 9px;
       /* color: #6f6e6e; */
+   }
+   .filter_column_inset {
+      margin-right: 8px;
    }
    .section--items {
       margin-right: 5px;
@@ -150,6 +193,9 @@
    .cart-wrapper {
       flex-direction: column;
       align-items: center;
+   }
+   .title__product {
+      justify-content: space-around;
    }
    .title_top {
       justify-content: center;
@@ -196,5 +242,62 @@
    }
    .title_top {
       justify-content: center;
+   }
+}
+/*REGISTRATION*/
+@media screen and (max-width: 768px) {
+   .item__li,
+   .offer__li,
+   .our__offer__head {
+      font-size: 16px;
+      line-height: 19px;
+   }
+   .registration-wrapper {
+      margin-left: 16px;
+      margin-right: 16px;
+   }
+   .section--reg--left {
+      margin-right: 22px;
+   }
+}
+@media screen and (max-width: 580px) {
+   .registration-wrapper {
+      flex-direction: column;
+      gap: 40px;
+   }
+}
+@media screen and (max-width: 375px) {
+   .copyright {
+      margin-top: 25px;
+   }
+   .footer__wrapper {
+      flex-direction: column-reverse;
+      padding: 43px 10px 24px 10px;
+   }
+}
+/*PRODUCT*/
+@media screen and (max-width: 480px) {
+   .title__product {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+@media screen and (max-width: 375px) {
+   .title__product {
+      flex-direction: column;
+      align-items: center;
+   }
+   .desc__text {
+      margin-top: 32px;
+      max-width: 326px;
+      max-height: 105px;
+   }
+   .filter__main__summary__filter__prod {
+      font-size: 10px;
+      line-height: 12px;
+   }
+   .filter_column__prod {
+      max-width: 100px;
+      max-height: 30px;
    }
 }
