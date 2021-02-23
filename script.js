@@ -25,6 +25,15 @@ clothebtn.addEventListener("click", () => {
    document.body.style.overflow = null;
 });
 
+
+// const marker = document.querySelector(".filter_icon");
+// const summary = document.querySelector(".filter__main__summary");
+
+// let isFill = false;
+// summary.addEventListener("click", () => {
+//    isFill = !isFill;
+//    marker.classList.toggle("fill");
+// });
 /* CARUSEL */
 
 /* for product */
