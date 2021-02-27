@@ -25,7 +25,24 @@ clothebtn.addEventListener("click", () => {
    document.body.style.overflow = null;
 });
 
+// onclick="document.getElementById('myImage').src='image/btn__cart--copy.svg'"
+// var myImage = document.querySelector('img');
 
+// myImage.onclick = function() {
+//     var mySrc = myImage.getAttribute('src');
+//     if(mySrc === 'image/dest-next.svg') {
+//       myImage.setAttribute ('src','image/dest-next_copy.svg');
+//     } else {
+//       myImage.setAttribute ('src','image/dest-next.svg');
+//     }
+// }
+
+
+
+
+// document.querySelector(carousel-control-next-icon).onclick = function() {
+//    content: url("image/dest-next_copy.svg"); 
+// }
 // const marker = document.querySelector(".filter_icon");
 // const summary = document.querySelector(".filter__main__summary");
 

@@ -10,6 +10,16 @@
    .footer__wrapper {
       padding: 24px 32px 24px 32px;
    }
+
+}
+@media screen and (max-width: 1240px) {
+   .registration-wrapper {
+      margin-left: 16px;
+      margin-right: 16px;
+   }
+   .left_side__cart {
+      margin-left: 16px;
+   }
 }
 @media screen and (min-width: 375.1px) and (max-width: 768px) {
    .section--advantages .section__wrapper {
@@ -101,6 +111,19 @@
    }
 }
 @media screen and (max-width: 375px) {
+   .navbar {
+      max-width: 375px;
+   }
+   .registration-wrapper {
+      align-items: center;
+   }
+   .section--reg--left,
+   .section--reg--right {
+      margin-right: 0;
+   }
+   .section--reg--right {
+      max-width: 358px;
+   }
    .title__registr {
       display: flex;
    }
@@ -119,7 +142,8 @@
       justify-content: center;
    }
    .section--intro_right {
-      padding: 148px 56px 149px 56px;
+      /* padding: 148px 56px 149px 56px; */
+      min-height: 400px;
    }
    .section--intro_right_text1,
    .section--intro_right_text2 {
@@ -274,7 +298,12 @@
       flex-direction: column-reverse;
       padding: 43px 10px 24px 10px;
    }
+   .registration-wrapper {
+      margin-left: 0;
+      margin-right: 0;
+   }
 }
+
 /*PRODUCT*/
 @media screen and (max-width: 480px) {
    .title__product {

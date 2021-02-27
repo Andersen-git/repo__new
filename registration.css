@@ -50,7 +50,7 @@ input:focus {
    outline: none; /* Скрываем рамку */
 }
 .enter__data {
-   width: 360px;
+   max-width: 360px;
    height: 45px;
    padding-left: 17px;
 }

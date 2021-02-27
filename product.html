@@ -115,7 +115,8 @@
                <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-               data-bs-slide="next">
+               data-bs-slide="next" onclick="document.getElementById('myImage').src=''">
+               <!-- <img id="myImage" src="image/dest-next.svg" class="carousel-control-next-icon" alt=""> -->
                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                <span class="visually-hidden">Next</span>
             </button>
@@ -185,8 +186,8 @@
                </details>
             </div>
          </div>
-         <form action="Cart.html" target="_blank">
-            <button class="product-filter__btn"> <img class="btn__cart" src="image/btn__cart.svg" alt="">
+         <form action="#">
+            <button class="product-filter__btn"><img class="btn__cart" src="image/btn__cart.svg" alt="">
                Add to
                Cart</button>
          </form>

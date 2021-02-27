@@ -10,6 +10,9 @@
    color: #f16d7f;
    text-decoration: none;
 }
+.title_top {
+   margin-top: 40px;
+}
 .cart-wrapper {
    max-width: 1140px;
    width: 100%;
